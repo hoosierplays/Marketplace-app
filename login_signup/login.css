@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    background-color: cadetblue;
+}
+
+#container {
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#title {
+    text-align: center;
+    font-family: Lato;
+    color: black;
+    font-size: 46px;
+}
+
+#login_form {
+    font-family: Lato;
+    font-size: 26px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    margin-top: 25px;
+}
+
+#login_form > input{
+    width: 300px;
+    height: 25px;
+    margin-bottom: 25px;
+}
+
+#login_form > button {
+    float: right;
+    width: 100px;
+    height: 25px;
+    background-color: darkgrey;
+}
+
+#login_form > button:hover {
+    cursor: pointer;
+}
+
+#login_form > a {
+    font-size: 18px;
+    float: left;
+}

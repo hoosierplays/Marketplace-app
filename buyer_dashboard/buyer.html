@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./buyer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Buyer Dashboard</title>
+  </head>
+  <body>
+    <div id="header">
+      <div id="search">
+        <input type="text" id="search_input" /><button id="search_button">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+      <div id="profile_icon">
+        <img
+          id="profile_pic"
+          src="../images/istockphoto-515660465-612x612.jpg"
+        />
+      </div>
+    </div>
+    <div id="profile_options_menu">
+      <div id="view_profile" class="menu_options">View Profile</div>
+      <div id="seller_dashboard" class="menu_options">Seller Dashboard</div>
+      <div id="view_cart" class="menu_options">View Cart</div>
+    </div>
+    <div id="product_grid">
+      <div class="product_card" id="card_1">
+        <div class="product_image_container">
+          <img src="../images/530395_100_ss_01.webp" class="product_image" />
+        </div>
+        <div class="product_information_container">
+          <p class="product_titles">Adidas Shoes</p>
+          <p>Shoes from Adidas's runner series.</p>
+          <a href="https://www.adidas.com/">Visit the Adidas Store</a>
+          <h3 class="product_price">$65.99</h3>
+          <button class="cart_buttons">
+            <i class="fa fa-shopping-cart"></i>
+          </button>
+        </div>
+      </div>
+      <div class="product_card" id="card_2">
+        <div class="product_image_container">
+          <img src="../images/ua_sweatshirt.webp" class="product_image" />
+        </div>
+        <div class="product_information_container">
+          <p class="product_titles">Under Armour Sweatshirt</p>
+          <p>Black Under Armour Sweatshirt</p>
+          <a href="https://www.underarmour.com/"
+            >Visit the Under Armour Store</a
+          >
+          <h3 class="product_price">$47.99</h3>
+          <button class="cart_buttons">
+            <i class="fa fa-shopping-cart"></i>
+          </button>
+        </div>
+      </div>
+      <div class="product_card" id="card_3">
+        <div class="product_image_container">
+          <img src="../images/lg_monitor.webp" class="product_image" />
+        </div>
+        <div class="product_information_container">
+          <p class="product_titles">LG Monitor</p>
+          <p>27 Inch, 4K, LG Monitor</p>
+          <a href="https://www.lg.com/">Visit the LG Store</a>
+          <h3 class="product_price">$189.99</h3>
+          <button class="cart_buttons">
+            <i class="fa fa-shopping-cart"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./buyer.js"></script>
+</html>
