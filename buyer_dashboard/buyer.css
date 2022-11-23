@@ -136,6 +136,7 @@ body {
     position: absolute;
     right: 25px;
     top: 65px;
+    z-index: 1;
 }
 
 .menu_options {
