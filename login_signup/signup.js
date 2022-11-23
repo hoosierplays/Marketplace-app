@@ -1,6 +1,6 @@
 function checkCredentials() {
   for (x in localStorage) {
-    user = localStorage.getItem(x);
+    user = JSON.parse(localStorage.getItem(x));
     if (x.username === document.getElementById("username_signup").value) {
       if (x.password === document.getElementById("password_signup").value) {
         return true;
