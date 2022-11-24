@@ -12,3 +12,7 @@ document.getElementById("product_grid").addEventListener("mouseover", (e) => {
   document.getElementById("profile_options_menu").style.display = "none";
   document.getElementById("profile_icon").style.opacity = "100%";
 });
+
+function goToCreateCard() {
+  window.location.replace("../create_card/create_card.html");
+}

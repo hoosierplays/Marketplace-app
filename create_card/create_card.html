@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./create_card.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <h1 id="title">Create Product Card</h1>
+    <div id="container">
+      <div>
+        <form id="card_form">
+          <label for="title">Product Title:</label>
+          <input
+            type="text"
+            id="product_title"
+            class="form_inputs"
+            name="title"
+          />
+          <br />
+          <br />
+          <br />
+          <label for="image">Product Image:</label>
+          <input
+            type="text"
+            id="product_image"
+            class="form_inputs"
+            name="image"
+          />
+          <br />
+          <br />
+          <br />
+          <label for="link">Store Link:</label>
+          <input
+            type="text"
+            id="product_link"
+            class="form_inputs"
+            name="link"
+          />
+          <br />
+          <br />
+          <br />
+          <label for="name">Store Name:</label>
+          <input
+            type="text"
+            id="product_link_title"
+            class="form_inputs"
+            name="name"
+          />
+          <br />
+          <br />
+          <br />
+          <label for="description"
+            >Product Description (Must be 20 words or less):</label
+          >
+          <br />
+          <input type="text" id="product_description" name="description" />
+          <br />
+          <br />
+          <br />
+          <label for="price">Price:</label>
+          <br />
+          <br />
+          <input
+            type="text"
+            id="product_price"
+            class="form_inputs"
+            name="price"
+          />
+          <button id="create_card" type="button">Create</button>
+          <button id="cancel_create" type="button" onclick="goBackToMain()">
+            Cancel
+          </button>
+        </form>
+      </div>
+      <div id="card_preview">
+        <h2>Card Preview</h2>
+        <div id="product_card">
+          <div id="product_image_container">
+            <img src="" id="product_image_preview" />
+          </div>
+          <div id="product_information_container">
+            <p id="product_title_preview"></p>
+            <p id="product_description_preview"></p>
+            <a href="" id="product_link_preview"></a>
+            <h3 id="product_price_preview"></h3>
+            <button id="cart_buttons">
+              <i class="fa fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./create.js"></script>
+</html>
